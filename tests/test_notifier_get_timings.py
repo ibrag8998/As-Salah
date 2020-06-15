@@ -1,6 +1,7 @@
 from datetime import datetime
-from as_salah.services.notifier.get_data import (DataCollector,
-                                                 ConfigDataProvider)
+
+from as_salah.services.notifier.get_timings import (DataCollector,
+                                                    ConfigDataProvider)
 
 
 def test_ConfigDataProvider_updates():
